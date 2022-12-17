@@ -1,7 +1,5 @@
 #EXTM3U
-#EXTINF:-1,Glamurnaja volna (128kb)
+#EXTINF:-1,Glamurnaja volna
 http://stream.laut.fm/glamwave
-#EXTINF:-1,Glamurnaja volna (48kb)
-http://stream.zeno.fm/augmyet6bveuv
-#EXTINF:-1,Glamurnaja volna (32kb)
-http://stream.zeno.fm/bzhthbwbmbruv
+#EXTINF:-1,Glamurnaja volna (Live)
+http://s0.radioheart.ru:8000/glamournavolne
