@@ -141,31 +141,7 @@ MRP.insert({
 <iframe src="//glamournavolne.chatovod.ru/" frameborder="0" marginheight="0" marginwidth="0" width="700" height="720"></iframe>
 </center>
 
-<center><b>Песня в эфире</b></center>
-<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
-<center><div id="api_lfm_current_song1">Loading...</div>
-<script type="text/html" id="current_song_template1" charset="utf-8">
-<%= "" + this.artist.name + " - " + this.title %>
-</script> 
-<script type="text/javascript" charset="utf-8"> laut.fm.station('glamwave') 
-.current_song({container:'api_lfm_current_song1', template:'current_song_template1'}, true);
-</script></center>
-
-<br>
-<center><b>Следующие исполнители</b></center>
-<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
-<center><div id="api_lfm_next_artists">Loading..</div>
-<script type="text/html" id="next_artists_template" charset="utf-8">
-<% for (i=0; i<this.length; i++) { %>
-&#10149; <%= this[i].artist.name %><br />
-<% } %></script> 
-<script type="text/javascript" charset="utf-8">
-laut.fm.station('glamwave') 
-.next_artists ({container:'api_lfm_next_artists', template:'next_artists_template'}, true);
-</script></center>
-
-<br>
-<center><b>Последние песни</b><br><br></center>
+<h2 class="wsite-content-title" style="text-align:center;"><font size="3">Последние песни</font></h2>
 <script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
 <center><div id="api_lfm_last_x_songs">Loading...</div>
 <script type="text/html" id="last_x_songs_template" charset="utf-8"> 
