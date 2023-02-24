@@ -142,6 +142,19 @@ MRP.insert({
 <iframe src="//glamournavolne.chatovod.ru/" frameborder="0" marginheight="0" marginwidth="0" width="700" height="720"></iframe>
 </center>
 
+<h2 class="wsite-content-title" style="text-align:center;"><font size="3">Последние песни</font></h2>
+<script type="text/javascript" src="//api.laut.fm/js_tools/lautfm_js_tools.0.10.0.js.min.js" ></script>
+<center><div id="api_lfm_last_x_songs">Loading...</div>
+<script type="text/html" id="last_x_songs_template" charset="utf-8"> 
+<% for (i=0; i < 10; i++) { %>
+<%= "<p>" + this[i].started_at.humanTimeLong() + " - " + this[i].ends_at.humanTimeLong() + " <br />" + this[i].artist.name + " - " + this[i].title + "<br /></p>" %>
+<% } %>
+</script>
+<script type="text/javascript" charset="utf-8">
+laut.fm.station('glamwave')
+.last_songs({container:'api_lfm_last_x_songs', template:'last_x_songs_template'}, true);
+</script></center>
+
 <h2 class="wsite-content-title" style="text-align:center;"><font size="3">Гео статистика</font></h2>
 
 <center>
