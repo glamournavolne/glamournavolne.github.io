@@ -1,6 +1,6 @@
 User-agent: *
 User-agent: Yandex
 User-agent: Googlebot
-Host: https://glamournavolne.tk
-Sitemap: https://glamournavolne.tk/sitemap.xml
+Host: https://glamournavolne.github.io
+Sitemap: https://glamournavolne.github.io/sitemap.xml
 Allow: /index.html
