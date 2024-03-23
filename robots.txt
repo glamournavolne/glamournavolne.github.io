@@ -4,3 +4,4 @@ User-agent: Googlebot
 Host: https://glamournavolne.tk
 Sitemap: https://glamournavolne.tk/sitemap.xml
 Allow: /index.html
+Allow: /glam.html
