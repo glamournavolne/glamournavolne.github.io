@@ -1,7 +1,7 @@
 User-agent: *
 User-agent: Yandex
 User-agent: Googlebot
-Host: https://glamournavolne.github.io
-Sitemap: https://glamournavolne.github.io/sitemap.xml
+Host: https://glamournavolne.work.gd
+Sitemap: https://glamournavolne.work.gd/sitemap.xml
 Allow: /index.html
 Allow: /glam.html
